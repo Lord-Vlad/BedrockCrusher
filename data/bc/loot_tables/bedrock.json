@@ -34,11 +34,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:coal",
           "weight": 64
         },
@@ -111,6 +106,11 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald_ore",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "bc:emerald",
+          "weight": 10
         }
       ]
     }

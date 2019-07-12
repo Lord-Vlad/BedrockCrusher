@@ -25,3 +25,6 @@ execute as @e[type=armor_stand,tag=bcDone] at @s unless block ~ ~1 ~ bedrock run
 
 ### Reset placement score ###
 scoreboard players reset @a[scores={bcCutter=1..}] bcCutter
+
+### Loot ###
+execute as @e[type=armor_stand,tag=bcDone] at @s run function bc:loot
