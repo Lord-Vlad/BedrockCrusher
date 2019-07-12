@@ -35,18 +35,6 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "minecraft:desert_mutated"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sand",
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
                 "biome": "minecraft:beach"
               }
             }

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "bc:general/very_common",
+          "weight": 150
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "bc:general/common",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "bc:general/uncommon",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "bc:general/rare",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "bc:general/super_rare",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
